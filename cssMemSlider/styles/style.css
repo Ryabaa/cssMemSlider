@@ -59,7 +59,7 @@ body {
     background-color: #20386362;
     padding: 10px 20px;
     border-radius: 10px;
-    width: max-content;
+    max-width: max-content;
     transition: all ease 0.3s;
 }
 
@@ -88,4 +88,10 @@ body {
 }
 .control-button--active:hover {
     border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+    .meme-text {
+        font-size: 12px;
+    }
 }
